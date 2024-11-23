@@ -31,18 +31,22 @@
 .main-header{
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-message{
   height: calc(100vh - 190px);
   background-color: #FAFAFA;
   padding: 46px 40px 0;
+  overflow: scroll;
 }
 
 .main-footer{
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
+  display: flex;
 }
 
 .header-name a{
@@ -68,3 +72,91 @@
   color: #ffffff;
 }
 
+
+.group-name{
+  display: flex;
+  padding: 36px 0 40px;
+  justify-content: space-between;
+}
+.group-name a{
+font-size: 24px;
+color: #333;
+text-decoration: none;
+}
+
+.ae{
+  margin-top: 40px;
+}
+
+.ae a{
+  text-decoration: none;
+  padding: 20px;
+  color: darkred;
+  border: 1px solid darkred
+}
+
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper-message{
+  display: flex;
+}
+
+.message-user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.form-input {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
